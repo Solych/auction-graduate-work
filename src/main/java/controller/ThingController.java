@@ -1,5 +1,6 @@
 package controller;
 
+import exceptions.ThingNotFoundException;
 import model.FactOverride;
 import model.Thing;
 import model.dto.FactOverrideDto;
@@ -27,14 +28,12 @@ public class ThingController {
 
     @GetMapping("/getAllByUser/{userId}")
     public ResponseEntity<List<Thing>> getAllThingsOwnedByUser(@PathVariable Integer userId) {
-        System.out.println(thingService.findOwnedByUser(userId));
-        System.out.println(userId);
         return new ResponseEntity<>(thingService.findOwnedByUser(userId), HttpStatus.OK);
     }
 
     @PutMapping("/update")
     public ResponseEntity<Thing> update(@RequestBody Thing thing) {
-        return new ResponseEntity<>(HttpStatus.OK);
+        return new ResponseEntity<>(thingService.save(thing), HttpStatus.OK);
     }
 
     @PostMapping("/save")
@@ -45,17 +44,30 @@ public class ThingController {
     @GetMapping("/getAllByCategory/{categoryId}/{page}")
     public ResponseEntity<List<Thing>> getAllThingsByCategory(@PathVariable Integer categoryId,
                                                               @PathVariable Integer page) {
-        return new ResponseEntity<>(HttpStatus.OK);
+        return new ResponseEntity<>(thingService.getByCategoryAndPage(categoryId, page), HttpStatus.OK);
     }
 
     @GetMapping("/getById/{thingId}")
     public ResponseEntity<Thing> getThingById(@PathVariable Integer thingId) {
-        return new ResponseEntity<>(HttpStatus.OK);
+        try {
+            return new ResponseEntity<>(thingService.findById(thingId), HttpStatus.OK);
+        } catch (ThingNotFoundException ex) {
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
 
     @GetMapping("/getDataByThingId/{thingId}")
     public ResponseEntity<List<FactOverrideDto>> getThingDataById(@PathVariable Integer thingId) {
         return new ResponseEntity<>(factOverrideService.getDataOfThing(thingId), HttpStatus.OK);
+    }
+
+    @GetMapping("/getThingByName/{name}")
+    public ResponseEntity<List<Thing>> getThingByName(@PathVariable String name) {
+        try {
+            return new ResponseEntity<>(thingService.findThingByName(name), HttpStatus.OK);
+        } catch (ThingNotFoundException ex) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
     }
 
 
