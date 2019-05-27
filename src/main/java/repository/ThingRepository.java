@@ -14,7 +14,7 @@ public interface ThingRepository extends JpaRepository<Thing, Integer> {
     List<Thing> findRandom24(Date now);
 
     @Query(nativeQuery = true, value =
-            "SELECT * FROM auction.thing WHERE TIME_FOR_SELLING > ?1 AND CATEGORY_ID = ?2 SKIP ?3*24 LIMIT 24")
+            "SELECT * FROM auction.thing WHERE TIME_FOR_SELLING > ?1 AND CATEGORY_ID = ?2 LIMIT ?3, 24")
     List<Thing> findByCategoryPageable(Date now, Integer categoryId, Integer page);
 
     Thing findByThingId(Integer thingId);

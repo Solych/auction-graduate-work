@@ -15,6 +15,7 @@ controller\CategoryController.class
 service\CategoryService.class
 service\Implementation\ThingServiceImpl.class
 exceptions\UserNotFoundException.class
+exceptions\ThingNotFoundException.class
 service\Implementation\FactOverrideServiceImpl.class
 service\Implementation\FactSaleServiceImpl.class
 config\ServletInit.class

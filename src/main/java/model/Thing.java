@@ -15,12 +15,15 @@ public class Thing {
     @Column(name = "NAME", length = 30, nullable = false)
     private String name;
 
-    @Column(name = "PICTURE", columnDefinition = "blob")
+    @Column(name = "PICTURE", columnDefinition = "longblob")
     @Lob
     private byte[] picture;
 
     @Column(name = "MIN_PRICE", nullable = false)
     private Integer minPrice;
+
+    @Column(name = "DESCRIPTION")
+    private String description;
 
     @Column(name = "DATE_OF_PUT", nullable = false)
     @Temporal(TemporalType.TIMESTAMP)
@@ -100,5 +103,13 @@ public class Thing {
 
     public void setOwner(Buyer owner) {
         this.owner = owner;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

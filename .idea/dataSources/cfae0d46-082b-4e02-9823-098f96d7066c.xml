@@ -1291,7 +1291,7 @@
     </column>
     <column id="314" parent="282" name="PICTURE">
       <Position>5</Position>
-      <DataType>blob|0s</DataType>
+      <DataType>longblob|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="315" parent="282" name="MIN_PRICE">
@@ -1317,26 +1317,31 @@
       <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="319" parent="282" name="OWNER_ID">
+    <column id="319" parent="282" name="DESCRIPTION">
+      <Position>10</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="320" parent="282" name="OWNER_ID">
       <ColNames>OWNER_ID</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="320" parent="282" name="CATEGORY_ID">
+    <index id="321" parent="282" name="CATEGORY_ID">
       <ColNames>CATEGORY_ID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="321" parent="282" name="PRIMARY">
+    <key id="322" parent="282" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>THING_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="322" parent="282" name="thing_ibfk_1">
+    <foreign-key id="323" parent="282" name="thing_ibfk_1">
       <ColNames>OWNER_ID</ColNames>
       <RefSchemaName>auction</RefSchemaName>
       <RefTableName>buyer</RefTableName>
       <RefColNames>BUYER_ID</RefColNames>
     </foreign-key>
-    <foreign-key id="323" parent="282" name="thing_ibfk_2">
+    <foreign-key id="324" parent="282" name="thing_ibfk_2">
       <ColNames>CATEGORY_ID</ColNames>
       <RefSchemaName>auction</RefSchemaName>
       <RefTableName>category</RefTableName>

@@ -31,7 +31,7 @@ public class ThingServiceImpl implements ThingService {
     }
 
     public List<Thing> getByCategoryAndPage(Integer categoryId, Integer page) {
-        return thingRepository.findByCategoryPageable(new Date(), categoryId, page);
+        return thingRepository.findByCategoryPageable(new Date(), categoryId, page*24);
     }
 
     public List<Thing> findOwnedByUser(Integer userId) {

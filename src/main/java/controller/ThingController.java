@@ -18,6 +18,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/thing")
+@CrossOrigin(origins = "*")
 public class ThingController {
 
     @Autowired
@@ -41,9 +42,11 @@ public class ThingController {
         return new ResponseEntity<>(thingService.save(thing), HttpStatus.OK);
     }
 
-    @GetMapping("/getAllByCategory/{categoryId}/{page}")
+    @GetMapping("/getAllByCategory/{categoryId}/")
     public ResponseEntity<List<Thing>> getAllThingsByCategory(@PathVariable Integer categoryId,
-                                                              @PathVariable Integer page) {
+                                                              @RequestParam("page") Integer page) {
+        System.out.println(categoryId);
+        System.out.println(page);
         return new ResponseEntity<>(thingService.getByCategoryAndPage(categoryId, page), HttpStatus.OK);
     }
 
