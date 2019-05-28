@@ -45,8 +45,6 @@ public class ThingController {
     @GetMapping("/getAllByCategory/{categoryId}/")
     public ResponseEntity<List<Thing>> getAllThingsByCategory(@PathVariable Integer categoryId,
                                                               @RequestParam("page") Integer page) {
-        System.out.println(categoryId);
-        System.out.println(page);
         return new ResponseEntity<>(thingService.getByCategoryAndPage(categoryId, page), HttpStatus.OK);
     }
 

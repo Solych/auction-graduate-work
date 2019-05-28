@@ -8,5 +8,4 @@ import model.dto.Admission;
 public interface BuyerService {
     String checkAdmission(Admission admission) throws UserNotFoundException;
     Buyer register(Buyer buyer) throws ConstraintViolationException;
-    Buyer delete(Integer buyerId) throws UserNotFoundException;
 }

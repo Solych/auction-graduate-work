@@ -12,10 +12,10 @@ public class Token {
     private static final SignatureAlgorithm SIGNATURE_ALGORITHM = SignatureAlgorithm.HS512;
 
 
-    public static String generateTokenString(String username) {
+    public static String generateTokenString(Integer buyerId) {
         return Jwts.builder()
                 .setIssuer(APP_NAME)
-                .setSubject(username)
+                .setSubject("" + buyerId)
                 .setIssuedAt(generateCurrentDate())
                 .setExpiration(generateExpirationDate())
                 .signWith(SIGNATURE_ALGORITHM, SECRET)

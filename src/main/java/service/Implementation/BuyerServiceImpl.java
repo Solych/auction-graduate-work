@@ -16,7 +16,6 @@ public class BuyerServiceImpl implements BuyerService {
 
     @Autowired
     private BuyerRepository buyerRepository;
-    public static final Integer NUMBER_OF_COMPLAINTS = 0;
 
     public static final String USER_NOT_FOUND_MESSAGE = "User not found";
     public static final String USER_ALSO_EXISTS_MSG = "User with this credentials also exists";
@@ -26,7 +25,7 @@ public class BuyerServiceImpl implements BuyerService {
         if (buyer == null) {
             throw new UserNotFoundException(USER_NOT_FOUND_MESSAGE);
         }
-        return Token.generateTokenString(admission.getUsername());
+        return Token.generateTokenString(buyer.getBuyerId());
     }
 
     public Buyer register(Buyer buyer) throws ConstraintViolationException {
@@ -35,11 +34,5 @@ public class BuyerServiceImpl implements BuyerService {
         } catch (Exception ex) {
             throw new ConstraintViolationException(USER_ALSO_EXISTS_MSG);
         }
-    }
-
-    @Transactional
-    public Buyer delete(Integer buyerId) throws UserNotFoundException{
-
-        return buyerRepository.findById(buyerId).orElseThrow(() -> new UserNotFoundException("cann"));
     }
 }
