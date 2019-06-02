@@ -16,12 +16,16 @@ public class ThingServiceImpl implements ThingService {
     @Autowired
     private ThingRepository thingRepository;
 
-    public static final String THING_NOT_FOUND = "Thing not found";
+    private  static final String THING_NOT_FOUND = "Thing not found";
 
     public Thing findById(Integer thingId) throws ThingNotFoundException {
         Thing thing = thingRepository.findByThingId(thingId);
         if(thing == null) {
             throw new ThingNotFoundException(THING_NOT_FOUND);
+        }
+        Integer price = thingRepository.getLastPrice(thingId);
+        if(price != null) {
+            thing.setMinPrice(price);
         }
         return thing;
     }
@@ -48,5 +52,9 @@ public class ThingServiceImpl implements ThingService {
             throw new ThingNotFoundException(THING_NOT_FOUND);
         }
         return things;
+    }
+
+    public Integer getRandomIdOfThing() {
+        return thingRepository.getRandomIdOfThing().getThingId();
     }
 }

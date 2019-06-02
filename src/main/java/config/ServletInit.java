@@ -7,7 +7,7 @@ public class ServletInit extends AbstractAnnotationConfigDispatcherServletInitia
     @Nullable
     protected Class<?>[] getRootConfigClasses() {
         return new Class<?>[]{
-                DbConfig.class, LogConfig.class
+                DbConfig.class
         };
     }
 

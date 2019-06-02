@@ -1,5 +1,7 @@
 package controller;
 
+import com.fasterxml.jackson.databind.util.JSONPObject;
+import com.google.gson.JsonObject;
 import exceptions.ConstraintViolationException;
 import exceptions.UserNotFoundException;
 import model.Buyer;
@@ -28,10 +30,12 @@ public class BuyerController {
     private BuyerService buyerService;
 
     @PostMapping("/authorize")
-    public ResponseEntity<String> checkAdmission(@RequestBody Admission admission) {
+    public ResponseEntity<?> checkAdmission(@RequestBody Admission admission) {
         try {
             String token = buyerService.checkAdmission(admission);
-            return new ResponseEntity<>(token, HttpStatus.OK);
+            JsonObject jsonToken = new JsonObject();
+            jsonToken.addProperty("token", token);
+            return new ResponseEntity<>(jsonToken.toString(), HttpStatus.OK);
         } catch (UserNotFoundException ex){
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }

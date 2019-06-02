@@ -23,8 +23,6 @@ public class WebAppImpl implements WebApplicationInitializer {
         AnnotationConfigWebApplicationContext container = new AnnotationConfigWebApplicationContext();
         container.register(ServletInit.class);
         container.setServletContext(servletContext);
-
-
         ServletRegistration.Dynamic servlet = servletContext.addServlet("servlet", new DispatcherServlet(container));
         servlet.setLoadOnStartup(1);
         servlet.addMapping("/");

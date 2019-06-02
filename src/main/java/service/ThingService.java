@@ -12,4 +12,5 @@ public interface ThingService {
     List<Thing> findOwnedByUser(Integer userId);
     Thing save(Thing thing);
     List<Thing> findThingByName(String name) throws ThingNotFoundException;
+    Integer getRandomIdOfThing();
 }

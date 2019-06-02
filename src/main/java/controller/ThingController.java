@@ -1,7 +1,6 @@
 package controller;
 
 import exceptions.ThingNotFoundException;
-import model.FactOverride;
 import model.Thing;
 import model.dto.FactOverrideDto;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,8 +8,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import repository.ThingRepository;
-import service.CategoryService;
 import service.FactOverrideService;
 import service.ThingService;
 
@@ -71,5 +68,13 @@ public class ThingController {
         }
     }
 
+    @GetMapping("/getRandom")
+    public ResponseEntity<List<Thing>> getRandom() {
+        return new ResponseEntity<>(thingService.getRandom24(), HttpStatus.OK);
+    }
 
+    @GetMapping("/getRandomIdOfThing")
+    public ResponseEntity<Integer> getRandomIdOfThing() {
+        return new ResponseEntity<>(thingService.getRandomIdOfThing(), HttpStatus.OK);
+    }
 }
