@@ -23,7 +23,7 @@ public interface ThingRepository extends JpaRepository<Thing, Integer> {
     @Query(nativeQuery = true, value = "SELECT * FROM auction.thing where auction.thing.NAME LIKE ?1 AND TIME_FOR_SELLING > ?2")
     List<Thing> getThingsByNameLike(String name, Date now);
 
-    @Query(nativeQuery = true, value = "SELECT * FROM auction.THING where ORDER BY RAND() LIMIT 1")
+    @Query(nativeQuery = true, value = "SELECT * FROM auction.THING ORDER BY RAND() LIMIT 1")
     Thing getRandomIdOfThing();
 
     @Query(nativeQuery = true, value = "SELECT MAX(PRICE) as price FROM auction.FACT_OVERRIDE WHERE THING_ID = ?1")

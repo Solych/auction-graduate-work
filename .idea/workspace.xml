@@ -7,164 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c646605f-3cf0-4675-b896-1f2d1e9338b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/ServletInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ServletInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/WebAppImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/WebAppImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/BuyerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/BuyerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ThingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ThingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Thing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repository/ThingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ThingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Implementation/ThingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Implementation/ThingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ThingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ThingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/CreateTable.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/config/DbConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/config/LogConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/config/ServletInit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/config/WebAppImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/controller/BuyerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/controller/CategoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/controller/ThingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/exceptions/ConstraintViolationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/exceptions/ThingNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/exceptions/UserNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/model/Buyer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/model/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/model/FactOverride.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/model/FactSale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/model/Thing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/model/dto/Admission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/model/dto/FactOverrideDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/repository/BuyerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/repository/CategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/repository/FactOverrideRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/repository/FactSaleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/repository/ThingRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/service/BuyerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/service/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/service/FactOverrideService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/service/FactSaleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/service/Implementation/BuyerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/service/Implementation/CategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/service/Implementation/FactOverrideServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/service/Implementation/FactSaleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/service/Implementation/ThingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/service/ThingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/classes/token/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/aether-api-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/aether-impl-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/aether-spi-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/aether-util-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.8.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/commons-compress-1.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.2.11.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.22.0-CR2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/javax.mail-api-1.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/jjwt-0.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-aether-provider-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-archiver-3.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-artifact-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-core-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-filtering-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-mapping-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-model-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-model-builder-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-plugin-api-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-repository-metadata-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-settings-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-settings-builder-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-shared-utils-3.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/maven-war-plugin-3.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/plexus-archiver-3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/plexus-build-api-0.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/plexus-cipher-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/plexus-classworlds-2.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/plexus-component-annotations-1.5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/plexus-interpolation-1.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/plexus-io-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/plexus-sec-dispatcher-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/plexus-utils-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/sisu-guice-2.1.7-noaop.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/sisu-inject-bean-1.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/sisu-inject-plexus-1.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/snappy-0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-2.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/tomcat-dbcp-9.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/tomcat-juli-9.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/xmlpull-1.1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/xpp3_min-1.1.4c.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/xstream-1.4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Auction-1.0-SNAPSHOT/WEB-INF/lib/xz-1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/DbConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/LogConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/ServletInit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/WebAppImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/BuyerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/CategoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/ThingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/ConstraintViolationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/ThingNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/UserNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Buyer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/FactOverride.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/FactSale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Thing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/dto/Admission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/dto/FactOverrideDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/BuyerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/CategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/FactOverrideRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/FactSaleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/ThingRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/BuyerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/FactOverrideService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/FactSaleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Implementation/BuyerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Implementation/CategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Implementation/FactOverrideServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Implementation/FactSaleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Implementation/ThingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/ThingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/token/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -220,12 +66,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/ThingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="267">
+              <caret line="77" column="57" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="57" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#save#0;class#ThingController#0" />
                 <element signature="method#getAllThingsByCategory#0;class#ThingController#0" />
               </folding>
@@ -236,7 +83,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="das://cfae0d46-082b-4e02-9823-098f96d7066c/schema/auction/table/THING">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="2f75e359-a5b2-484a-a76a-dc678536c9e5">
+            <state projectRestartId="1314e2d4-3927-4a0d-9e3b-6a5b964ac37a">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Thing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="701">
+              <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2508#2509#0" expanded="true" />
+                <element signature="e#2538#2539#0" expanded="true" />
+                <element signature="e#2584#2585#0" expanded="true" />
+                <element signature="e#2622#2623#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://cfae0d46-082b-4e02-9823-098f96d7066c/schema/auction/table/thing">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="1314e2d4-3927-4a0d-9e3b-6a5b964ac37a">
               <filtering>
                 <filter text="" />
               </filtering>
@@ -247,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/ThingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="308">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -259,14 +133,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/Implementation/ThingServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="57" column="64" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
+            <state relative-caret-position="677">
+              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#908#972#1" />
+                <element signature="e#958#959#0" expanded="true" />
                 <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
                 <element signature="e#1317#1318#0" expanded="true" />
+                <element signature="e#1355#1356#0" expanded="true" />
                 <element signature="e#1413#1414#0" expanded="true" />
+                <element signature="e#1760#1761#0" expanded="true" />
                 <element signature="e#1832#1833#0" expanded="true" />
               </folding>
             </state>
@@ -276,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/repository/ThingRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="110">
+              <caret line="25" column="91" selection-start-line="25" selection-start-column="91" selection-end-line="25" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -286,10 +163,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cfae0d46-082b-4e02-9823-098f96d7066c/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" selection-end-line="1" />
+        <entry file="das://cfae0d46-082b-4e02-9823-098f96d7066c/schema/auction/table/FACT_OVERRIDE">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="1314e2d4-3927-4a0d-9e3b-6a5b964ac37a">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
@@ -344,7 +223,6 @@
         <option value="$PROJECT_DIR$/src/main/java/exceptions/ThingNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/CategoryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/DbConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Thing.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/dto/WinningsThingOwner.java" />
         <option value="$PROJECT_DIR$/src/main/java/repository/FactSaleRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/BuyerService.java" />
@@ -354,13 +232,14 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/BuyerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/WebAppImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/ServletInit.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cfae0d46-082b-4e02-9823-098f96d7066c/console_1.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cfae0d46-082b-4e02-9823-098f96d7066c/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/service/ThingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/repository/ThingRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/Implementation/ThingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ThingController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cfae0d46-082b-4e02-9823-098f96d7066c/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/ThingRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Thing.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
       </list>
     </option>
   </component>
@@ -406,8 +285,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -503,6 +380,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -511,7 +390,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AuctionFrontend-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -750,11 +629,13 @@
       <workItem from="1559397062836" duration="1519000" />
       <workItem from="1559453768558" duration="6319000" />
       <workItem from="1559471907285" duration="16726000" />
+      <workItem from="1559506426279" duration="23000" />
+      <workItem from="1559582732802" duration="4791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134983000" />
+    <option name="totallyTimeSpent" value="139797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -769,7 +650,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -777,7 +658,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.58829904" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.16901408" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31788793" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -796,7 +677,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24935733" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.20149253" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.20149253" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32977587" />
       <window_info anchor="right" id="Maven" order="7" />
@@ -810,14 +691,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/Implementation/FactSaleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d1545072-b373-40a7-9b75-88689704307b/schema/auctionSchema/table/CATEGORY" />
     <entry file="jar://$PROJECT_DIR$/../java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.0.RELEASE/spring-context-5.0.0.RELEASE.jar!/org/springframework/context/annotation/Scope.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/Admission.java">
@@ -999,16 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Thing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" selection-start-line="4" selection-start-column="21" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/Implementation/FactOverrideServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -1016,13 +879,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cfae0d46-082b-4e02-9823-098f96d7066c/schema/auction/table/FACT_OVERRIDE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="4b42a4ae-fd87-4b44-8b68-2863031cb172">
-          <filtering />
         </state>
       </provider>
     </entry>
@@ -1064,13 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cfae0d46-082b-4e02-9823-098f96d7066c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/FactOverrideDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1078,10 +927,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/ThingRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ThingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="267">
+          <caret line="77" column="57" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#save#0;class#ThingController#0" />
+            <element signature="method#getAllThingsByCategory#0;class#ThingController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/ThingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1090,46 +951,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/Implementation/ThingServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="57" column="64" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
+        <state relative-caret-position="677">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#908#972#1" />
+            <element signature="e#958#959#0" expanded="true" />
             <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
             <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
             <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
             <element signature="e#1832#1833#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/ThingService.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cfae0d46-082b-4e02-9823-098f96d7066c/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state>
+          <caret selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/ThingRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="25" column="91" selection-start-line="25" selection-start-column="91" selection-end-line="25" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://cfae0d46-082b-4e02-9823-098f96d7066c/schema/auction/table/THING">
+    <entry file="das://cfae0d46-082b-4e02-9823-098f96d7066c/schema/auction/table/FACT_OVERRIDE">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="2f75e359-a5b2-484a-a76a-dc678536c9e5">
+        <state projectRestartId="1314e2d4-3927-4a0d-9e3b-6a5b964ac37a">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ThingController.java">
+    <entry file="das://cfae0d46-082b-4e02-9823-098f96d7066c/schema/auction/table/THING">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="1314e2d4-3927-4a0d-9e3b-6a5b964ac37a">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Thing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="701">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
           <folding>
-            <element signature="method#save#0;class#ThingController#0" />
-            <element signature="method#getAllThingsByCategory#0;class#ThingController#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2508#2509#0" expanded="true" />
+            <element signature="e#2538#2539#0" expanded="true" />
+            <element signature="e#2584#2585#0" expanded="true" />
+            <element signature="e#2622#2623#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cfae0d46-082b-4e02-9823-098f96d7066c/schema/auction/table/thing">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="1314e2d4-3927-4a0d-9e3b-6a5b964ac37a">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cfae0d46-082b-4e02-9823-098f96d7066c/schema/auction/table/thing">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="1314e2d4-3927-4a0d-9e3b-6a5b964ac37a">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>

@@ -33,6 +33,9 @@ public class Thing {
     @Temporal(TemporalType.TIMESTAMP)
     private Date sellingTime;
 
+    @Column(name = "MESSAGE")
+    private String message;
+
     @JoinColumn(name = "OWNER_ID", nullable = false)
     @ManyToOne
     private Buyer owner;
@@ -111,5 +114,13 @@ public class Thing {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
