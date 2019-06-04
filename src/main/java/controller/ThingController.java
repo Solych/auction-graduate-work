@@ -1,6 +1,8 @@
 package controller;
 
+import exceptions.ConstraintViolationException;
 import exceptions.ThingNotFoundException;
+import model.FactOverride;
 import model.Thing;
 import model.dto.FactOverrideDto;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,14 +26,19 @@ public class ThingController {
     @Autowired
     private FactOverrideService factOverrideService;
 
+
     @GetMapping("/getAllByUser/{userId}")
     public ResponseEntity<List<Thing>> getAllThingsOwnedByUser(@PathVariable Integer userId) {
         return new ResponseEntity<>(thingService.findOwnedByUser(userId), HttpStatus.OK);
     }
 
     @PutMapping("/update")
-    public ResponseEntity<Thing> update(@RequestBody Thing thing) {
-        return new ResponseEntity<>(thingService.save(thing), HttpStatus.OK);
+    public ResponseEntity<FactOverride> update(@RequestBody FactOverride factOverride) {
+        try {
+            return new ResponseEntity<>(factOverrideService.save(factOverride), HttpStatus.OK);
+        } catch (ConstraintViolationException ex) {
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
 
     @PostMapping("/save")

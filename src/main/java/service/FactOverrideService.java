@@ -10,4 +10,6 @@ public interface FactOverrideService {
     FactOverride save(FactOverride factOverride) throws ConstraintViolationException;
 
     List<FactOverrideDto> getDataOfThing(Integer thingId);
+
+    List<FactOverride> getOverridesByUser(Integer userId);
 }

@@ -1,6 +1,7 @@
 package service.Implementation;
 
 import model.Category;
+import model.dto.CategoryCount;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import repository.CategoryRepository;
@@ -16,5 +17,9 @@ public class CategoryServiceImpl implements CategoryService {
 
     public List<Category> getAllCategories() {
         return categoryRepository.findAll();
+    }
+
+    public List<CategoryCount> getDataOfCategories(Integer buyerId) {
+        return categoryRepository.findCategoriesWithCountForUser(buyerId);
     }
 }

@@ -29,4 +29,8 @@ public class FactOverrideServiceImpl implements FactOverrideService {
     public List<FactOverrideDto> getDataOfThing(Integer thingId) {
         return factOverrideRepository.findAllByThingId(thingId);
     }
+
+    public List<FactOverride> getOverridesByUser(Integer userId) {
+        return factOverrideRepository.findAllByUserId(userId);
+    }
 }

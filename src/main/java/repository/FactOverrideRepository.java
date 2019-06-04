@@ -16,4 +16,7 @@ public interface FactOverrideRepository extends JpaRepository<FactOverride, Inte
 
     @Query(nativeQuery = true, value = "SELECT * FROM auction.fact_override WHERE THING_ID = ?1 ORDER BY PRICE LIMIT 1")
     FactOverride findLastPrice(Integer thingId);
+
+    @Query(nativeQuery = true, value = "SELECT * FROM auction.FACT_OVERRIDE WHERE BUYER_ID = ?1")
+    List<FactOverride> findAllByUserId(Integer userId);
 }
