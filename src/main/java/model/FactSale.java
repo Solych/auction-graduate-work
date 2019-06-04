@@ -65,4 +65,11 @@ public class FactSale {
     public void setPrice(Integer price) {
         this.price = price;
     }
+
+    public FactSale(Buyer buyer, Thing thing, Date saleTime, Integer price) {
+        this.buyer = buyer;
+        this.thing = thing;
+        this.saleTime = saleTime;
+        this.price = price;
+    }
 }

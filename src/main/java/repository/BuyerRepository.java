@@ -7,4 +7,6 @@ import org.springframework.data.jpa.repository.Query;
 public interface BuyerRepository extends JpaRepository<Buyer,Integer> {
 
     Buyer findByNickNameAndPassword(String nickName, String password);
+
+    Buyer findByBuyerId(Integer buyerId);
 }
