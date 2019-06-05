@@ -20,7 +20,7 @@ public interface ThingRepository extends JpaRepository<Thing, Integer> {
     @Query(nativeQuery = true, value = "SELECT * FROM auction.THING WHERE THING.THING_ID = ?1")
     Thing findByThingId(Integer thingId);
 
-    @Query(nativeQuery = true, value = "SELECT * FROM auction.thing where auction.thing.NAME LIKE ?1 AND TIME_FOR_SELLING > ?2")
+    @Query(nativeQuery = true, value = "SELECT * FROM auction.THING where auction.THING.NAME LIKE ?1 AND TIME_FOR_SELLING > ?2")
     List<Thing> getThingsByNameLike(String name, Date now);
 
     @Query(nativeQuery = true, value = "SELECT * FROM auction.THING ORDER BY RAND() LIMIT 1")
@@ -29,6 +29,6 @@ public interface ThingRepository extends JpaRepository<Thing, Integer> {
     @Query(nativeQuery = true, value = "SELECT MAX(PRICE) as price FROM auction.FACT_OVERRIDE WHERE THING_ID = ?1")
     Integer getLastPrice(Integer thingId);
 
-    @Query(nativeQuery = true, value = "SELECT * FROM auction.THING WHERE thing.TIME_FOR_SELLING < ?1 AND MESSAGE IS NULL")
+    @Query(nativeQuery = true, value = "SELECT * FROM auction.THING WHERE THING.TIME_FOR_SELLING < ?1 AND MESSAGE IS NULL")
     List<Thing> getExpired(Date now);
 }
