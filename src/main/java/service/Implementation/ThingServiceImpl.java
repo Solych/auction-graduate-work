@@ -47,7 +47,7 @@ public class ThingServiceImpl implements ThingService {
     }
 
     public List<Thing> findThingByName(String name) throws ThingNotFoundException {
-        List<Thing> things = thingRepository.getThingsByNameLike(name, new Date());
+        List<Thing> things = thingRepository.getThingsByNameLike("%" + name + "%", new Date());
         if(things.size() == 0) {
             throw new ThingNotFoundException(THING_NOT_FOUND);
         }

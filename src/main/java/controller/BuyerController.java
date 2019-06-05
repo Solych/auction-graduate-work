@@ -49,7 +49,7 @@ public class BuyerController {
         try{
             return new ResponseEntity<>(buyerService.register(buyer), HttpStatus.OK);
         } catch (ConstraintViolationException ex){
-            return new ResponseEntity<>(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
