@@ -2,10 +2,12 @@ package service.Implementation;
 
 import exceptions.ConstraintViolationException;
 import model.FactOverride;
+import model.Thing;
 import model.dto.FactOverrideDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import repository.FactOverrideRepository;
+import repository.ThingRepository;
 import service.FactOverrideService;
 
 import java.util.List;
@@ -17,6 +19,9 @@ public class FactOverrideServiceImpl implements FactOverrideService {
 
     @Autowired
     private FactOverrideRepository factOverrideRepository;
+
+    @Autowired
+    private ThingRepository thingRepository;
 
     public FactOverride save(FactOverride factOverride) throws ConstraintViolationException {
         try{
@@ -30,7 +35,7 @@ public class FactOverrideServiceImpl implements FactOverrideService {
         return factOverrideRepository.findAllByThingId(thingId);
     }
 
-    public List<FactOverride> getOverridesByUser(Integer userId) {
-        return factOverrideRepository.findAllByUserId(userId);
+    public List<Thing> getOverridesByUser(Integer userId) {
+        return thingRepository.getUserBets(userId);
     }
 }

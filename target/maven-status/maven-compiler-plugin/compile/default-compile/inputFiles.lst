@@ -14,6 +14,7 @@ C:\Programming\Auctionback-master\src\main\java\service\CategoryService.java
 C:\Programming\Auctionback-master\src\main\java\model\Thing.java
 C:\Programming\Auctionback-master\src\main\java\model\FactSale.java
 C:\Programming\Auctionback-master\src\main\java\exceptions\ConstraintViolationException.java
+C:\Programming\Auctionback-master\src\main\java\model\dto\UserBets.java
 C:\Programming\Auctionback-master\src\main\java\model\dto\FactOverrideDto.java
 C:\Programming\Auctionback-master\src\main\java\exceptions\UserNotFoundException.java
 C:\Programming\Auctionback-master\src\main\java\service\Implementation\FactOverrideServiceImpl.java

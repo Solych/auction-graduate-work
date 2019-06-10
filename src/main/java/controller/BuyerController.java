@@ -4,7 +4,7 @@ import com.google.gson.JsonObject;
 import exceptions.ConstraintViolationException;
 import exceptions.UserNotFoundException;
 import model.Buyer;
-import model.FactOverride;
+import model.Thing;
 import model.dto.Admission;
 import model.dto.CategoryCount;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -59,7 +59,7 @@ public class BuyerController {
     }
 
     @GetMapping("/prices/{id}")
-    public ResponseEntity<List<FactOverride>> getDataOfPrices(@PathVariable Integer id) {
+    public ResponseEntity<List<Thing>> getDataOfPrices(@PathVariable Integer id) {
         return new ResponseEntity<>(factOverrideService.getOverridesByUser(id), HttpStatus.OK);
     }
 }

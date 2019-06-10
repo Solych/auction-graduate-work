@@ -31,4 +31,7 @@ public interface ThingRepository extends JpaRepository<Thing, Integer> {
 
     @Query(nativeQuery = true, value = "SELECT * FROM auction.THING WHERE THING.TIME_FOR_SELLING < ?1 AND MESSAGE IS NULL")
     List<Thing> getExpired(Date now);
+
+    @Query(nativeQuery = true, value = "SELECT * FROM THING INNER JOIN auction.FACT_OVERRIDE ON FACT_OVERRIDE.THING_ID = THING.THING_ID WHERE FACT_OVERRIDE.BUYER_ID = ?1")
+    List<Thing> getUserBets(Integer userId);
 }

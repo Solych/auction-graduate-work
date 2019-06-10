@@ -1,3 +1,4 @@
+model\dto\UserBets.class
 config\WebAppImpl.class
 service\FactOverrideService.class
 config\LogConfig.class

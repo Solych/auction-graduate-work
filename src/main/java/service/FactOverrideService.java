@@ -2,6 +2,7 @@ package service;
 
 import exceptions.ConstraintViolationException;
 import model.FactOverride;
+import model.Thing;
 import model.dto.FactOverrideDto;
 
 import java.util.List;
@@ -11,5 +12,5 @@ public interface FactOverrideService {
 
     List<FactOverrideDto> getDataOfThing(Integer thingId);
 
-    List<FactOverride> getOverridesByUser(Integer userId);
+    List<Thing> getOverridesByUser(Integer userId);
 }
