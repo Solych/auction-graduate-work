@@ -19,7 +19,7 @@ import java.util.Properties;
 public class DbConfig {
 
     private static final String URL_DB =
-            "jdbc:mysql://localhost:3306/auction?useLegacyDatetimeCode=false&serverTimezone=UTC";
+            "jdbc:mysql://localhost:3306/auctionSchema?useLegacyDatetimeCode=false&serverTimezone=UTC";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "root";
     private static final String DRIVER_CLASS_NAME = "com.mysql.jdbc.Driver";

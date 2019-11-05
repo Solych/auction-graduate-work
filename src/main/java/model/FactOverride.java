@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "FACT_OVERRIDE", schema = "auction")
+@Table(name = "FACT_OVERRIDE", schema = "auctionSchema")
 public class FactOverride {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

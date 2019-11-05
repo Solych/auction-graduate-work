@@ -2,10 +2,9 @@ package model;
 
 import javax.persistence.*;
 import java.util.Date;
-import java.util.Set;
 
 @Entity
-@Table(name = "THING", schema = "auction")
+@Table(name = "THING", schema = "auctionSchema")
 public class Thing {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -15,7 +14,7 @@ public class Thing {
     @Column(name = "NAME", length = 30, nullable = false)
     private String name;
 
-    @Column(name = "PICTURE", columnDefinition = "longblob")
+    @Column(name = "PICTURE", columnDefinition = "blob")
     @Lob
     private byte[] picture;
 
